@@ -11,7 +11,7 @@ Diferentemente de ChatBots, M.A.R.I.A. resolve pedidos atraves de um fluxo estru
 clone o repositorio
 
 ```bash
-git clone [https://github.com/soluty-321/maria-agent](https://github.com/soluty-321/maria-agent)
+git clone https://github.com/soluty-321/maria-agent
 cd maria-agent
 ```
 
