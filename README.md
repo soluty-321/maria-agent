@@ -44,4 +44,4 @@ python maria.py
 1. Scherma Pydantic separado para planejador, executor e revisor
 2. Loop do executor com ele mesmo via pilha_do_executor
 
-Desenvolvido as 22 horas por soluty-321 de 16 anos, espero que gostem!
+Desenvolvido as 22 horas por soluty-321, espero que gostem!
