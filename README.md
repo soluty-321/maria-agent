@@ -1,4 +1,4 @@
-# M.A.R.I.A. v0.0.2
+# M.A.R.I.A. v0.0.3
 ## Seu assistente pessoal alimentado por IA
 
 M.A.R.I.A. (acronimo para Mecanismo Autonomo e Responsivo de Inteligencia Artificial) é um assistente pessoal baseado em inteligencia artificial baseado em grafos de estado.
@@ -39,9 +39,11 @@ execute o agente
 ```bash
 python maria.py
 ```
-## Novidades da 0.0.2
+## Novidades da 0.0.3
 
-1. Scherma Pydantic separado para planejador, executor e revisor
-2. Loop do executor com ele mesmo via pilha_do_executor
+1. Finalmente Temos Tools! Introduzida uma tool de execução de codigo python (execute_code)
+2. Codigo modularizado em 5 arquivos, llm.py, nodes.py, schermas.py, tools.py e maria.py
+3. Schema pydantic do executor foi tranformado numa tool
+4. Aplicação do sistema de Mensagens (messages) do *langchain*
 
-Desenvolvido as 22 horas por soluty-321, espero que gostem!
+Desenvolvido por soluty-321, espero que gostem!
